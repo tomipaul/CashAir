@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CashAir</string>
+    <string name="success">Transaction Successful</string>
+    <string name="failure">Oops! We are sorry</string>
+    <string name="green_check">SuccessIcon</string>
+    <string name="red_cross">FailureIcon</string>
 </resources>

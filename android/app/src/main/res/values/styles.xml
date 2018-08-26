@@ -2,7 +2,23 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItem</item>
         <!-- Customize your theme here. -->
+    </style>
+    <style name="SpinnerItem" parent="Theme.AppCompat.Light.NoActionBar">>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">7pt</item>
+        <item name="android:paddingLeft">4pt</item>
+    </style>
+
+    <style name="SpinnerDropDownItem" parent="Theme.AppCompat.Light.NoActionBar">>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">7pt</item>
+        <item name="android:paddingLeft">5pt</item>
     </style>
 
 </resources>

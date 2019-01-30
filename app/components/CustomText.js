@@ -6,12 +6,10 @@ import {
 
 export default class CustomText extends Component {
     render() {
-        const { children, style } = this.props
+        const { children, style=[] } = this.props
         return (
           <Text
-            style={
-              StyleSheet.flatten([styles.default, style])
-            }
+            style={[styles.default, style]}
           >{children}
           </Text>
         )
@@ -20,6 +18,6 @@ export default class CustomText extends Component {
 
 const styles = StyleSheet.create({
   default: {
-    fontFamily: 'times new roman'
+    fontFamily: 'Roboto'
   }
 })
